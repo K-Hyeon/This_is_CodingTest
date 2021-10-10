@@ -8,7 +8,6 @@ for _ in range(m):
     
 distance = [-1] * (n+1)
 distance[x] = 0
-
 q = deque([x])
 while q :
     now = q.popleft()
