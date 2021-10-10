@@ -26,6 +26,7 @@ def solution(p):
     index = balanced_index(p)
     u = p[:index + 1]
     v = p[:index + 1:]
+    
     if check_proper(u):
         answer = u+solution(v)
     else:
